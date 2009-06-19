@@ -24,7 +24,16 @@ Please note that Zend_AMF requires PHP 5.2.4 or later version
 	
 3/ Configuration and usage
 
-To configure your Flex application to use your AMF services, you should read this : http://framework.zend.com/manual/en/zend.amf.server.html#zend.amf.server.flex
+Your RemoteObject endpoint must be http://your-ezp-host-domaine/jvamf/endpoint
+You can edit your endpoint either in your Flex application's services-config.xml file or directly in your <mx:RemoteObject/> tag. If you use the services-config.xml file (recommended), your endpoint should be like this : http://{server.name}:{server.port}/jvamf/endpoint.
+
+Here's an example of a channel definition in a services-config.xml file :
+
+<channel-definition id="espacepresse-amf" class="mx.messaging.channels.AMFChannel">
+	<endpoint url="http://{server.name}:{server.port}/jvamf/endpoint" class="flex.messaging.endpoints.AMFEndpoint"/>
+</channel-definition>
+
+For more information to configure your Flex application to use your AMF services, you should read this : http://framework.zend.com/manual/en/zend.amf.server.html#zend.amf.server.flex
 
 Take a look at the INI file extension/jvamf/settings/jvamf.ini (DO NOT edit the file, make an override of it !)
   * You can specify directories in which Zend_AMF will look for service classes, depending on your RemoteObject call in your Flex application. 
