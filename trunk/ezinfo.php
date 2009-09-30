@@ -2,7 +2,7 @@
 //
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 // SOFTWARE NAME: jvAMF - AMF Connector for eZ Publish
-// SOFTWARE RELEASE: 1.0
+// SOFTWARE RELEASE: @@@VERSION@@@
 // COPYRIGHT NOTICE: Copyright (C) 2009 Jerome Vieilledent
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // NOTICE: >
@@ -29,12 +29,13 @@ class jvAMFInfo
     static function info()
     {
         return array( 'Name'      => 'jvAMF',
-                      'Version'   => '1.0.0',
-                      'Copyright' => 'Copyright (C) 2009 Jérôme Vieilledent',
+                      'Version'   => '1.0.1',
+                      'Copyright' => 'Copyright © 2009 Jérôme Vieilledent',
+                      'Info'      => '<a href="http://projects.ez.no/jvamf" target="_blank">http://projects.ez.no/jvamf</a>'
                       'License'   => 'GNU General Public License v2.0',
                       'Includes the following library'              => array( 'Name' => 'Zend_AMF (part of Zend Framework)',
-                                                                              'Version' => '1.8.3',
-                                                                              'Copyright' => 'Copyright (c) 2005-2008 Zend Technologies USA Inc. (http://www.zend.com)',
+                                                                              'Version' => '1.9.3',
+                                                                              'Copyright' => 'Copyright (c) 2005-2009 Zend Technologies USA Inc. (http://www.zend.com)',
                                                                               'License' => 'New BSD License : http://framework.zend.com/license/new-bsd',),
                       'Sponsored by'							    => array( 'Name' => 'NOVEN',
 	                                                                          'Website' => 'http://www.noven.fr')

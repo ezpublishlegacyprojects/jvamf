@@ -14,8 +14,9 @@
  *
  * @category   Zend
  * @package    Zend_Amf
- * @copyright  Copyright (c) 2005-2008 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2009 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @version    $Id: Server.php 16971 2009-07-22 18:05:45Z mikaelkael $
  */
 
 /** Zend_Server_Interface */
@@ -51,7 +52,7 @@ require_once 'Zend/Auth.php';
  * @todo       Make the relection methods cache and autoload.
  * @package    Zend_Amf
  * @subpackage Server
- * @copyright  Copyright (c) 2005-2008 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2009 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Amf_Server implements Zend_Server_Interface
@@ -61,12 +62,21 @@ class Zend_Amf_Server implements Zend_Server_Interface
      * @var array
      */
     protected $_methods = array();
-
+    
     /**
-     * Array of directories to search for loading classes dynamically
+     * Array of classes that can be called without being explicitly loaded
+     * 
+     * Keys are class names.
+     *
      * @var array
      */
-    protected $_directories = array();
+    protected $_classAllowed = array();
+
+    /**
+     * Loader for classes in added directories
+     * @var Zend_Loader_PluginLoader
+     */
+    protected $_loader;
 
     /**
      * @var bool Production flag; whether or not to return exception messages
@@ -261,6 +271,20 @@ class Zend_Amf_Server implements Zend_Server_Interface
     }
     
     /**
+     * Get PluginLoader for the Server
+     *
+     * @return Zend_Loader_PluginLoader
+     */
+    protected function getLoader()
+    {
+    	if(empty($this->_loader)) {
+    		require_once 'Zend/Loader/PluginLoader.php';
+    		$this->_loader = new Zend_Loader_PluginLoader();
+    	}
+    	return $this->_loader;
+    }
+    
+    /**
      * Loads a remote class or method and executes the function and returns
      * the result
      *
@@ -281,22 +305,16 @@ class Zend_Amf_Server implements Zend_Server_Interface
         if (!isset($this->_table[$qualifiedName])) {
             // if source is null a method that was not defined was called.
             if ($source) {
-                $classPath    = array();
-                $path         = explode('.', $source);
-                $className    = array_pop($path);
-                $uriclasspath = implode('/', $path);
-
-                // Take the user supplied directories and add the unique service path to the end.
-                foreach ($this->_directories as $dir) {
-                    $classPath[] = $dir . $uriclasspath;
-                }
-
-                require_once('Zend/Loader.php');
+				$className = str_replace(".", "_", $source);
+				if(class_exists($className, false) && !isset($this->_classAllowed[$className])) {
+					require_once 'Zend/Amf/Server/Exception.php';
+                    throw new Zend_Amf_Server_Exception('Can not call "' . $className . '" - use setClass()');
+				}
                 try {
-                    Zend_Loader::loadClass($className, $classPath);
+                	$this->getLoader()->load($className);
                 } catch (Exception $e) {
                     require_once 'Zend/Amf/Server/Exception.php';
-                    throw new Zend_Amf_Server_Exception('Class "' . $className . '" does not exist');
+                    throw new Zend_Amf_Server_Exception('Class "' . $className . '" does not exist: '.$e->getMessage());
                 }
                 // Add the new loaded class to the server.
                 $this->setClass($className, $source);
@@ -332,7 +350,7 @@ class Zend_Amf_Server implements Zend_Server_Interface
                     $object = $info->getDeclaringClass()->newInstance();
                 } catch (Exception $e) {
                     require_once 'Zend/Amf/Server/Exception.php';
-                    throw new Zend_Amf_Server_Exception('Error instantiating class ' . $class . ' to invoke method ' . $info->getName(), 621);
+                    throw new Zend_Amf_Server_Exception('Error instantiating class ' . $class . ' to invoke method ' . $info->getName() . ': '.$e->getMessage(), 621);
                 }
                 $this->_checkAcl($object, $info->getName());
                 $return = $info->invokeArgs($object, $params);
@@ -358,7 +376,8 @@ class Zend_Amf_Server implements Zend_Server_Interface
     {
         require_once 'Zend/Amf/Value/Messaging/AcknowledgeMessage.php';
         switch($message->operation) {
-            case Zend_Amf_Value_Messaging_CommandMessage::CLIENT_PING_OPERATION :
+            case Zend_Amf_Value_Messaging_CommandMessage::DISCONNECT_OPERATION :
+        	case Zend_Amf_Value_Messaging_CommandMessage::CLIENT_PING_OPERATION :
                 $return = new Zend_Amf_Value_Messaging_AcknowledgeMessage($message);
                 break;
             case Zend_Amf_Value_Messaging_CommandMessage::LOGIN_OPERATION :
@@ -725,6 +744,7 @@ class Zend_Amf_Server implements Zend_Server_Interface
             $namespace = is_object($class) ? get_class($class) : $class;
         }
         
+        $this->_classAllowed[is_object($class) ? get_class($class) : $class] = true;
 
         $this->_methods[] = Zend_Server_Reflection::reflectClass($class, $argv, $namespace);
         $this->_buildDispatchTable();
@@ -772,12 +792,13 @@ class Zend_Amf_Server implements Zend_Server_Interface
 
     /**
      * Creates an array of directories in which services can reside.
-     *
+     * TODO: add support for prefixes?
+     * 
      * @param string $dir
      */
     public function addDirectory($dir)
     {
-        $this->_directories[] = $dir;
+    	$this->getLoader()->addPrefixPath("", $dir);
     }
 
     /**
@@ -787,7 +808,7 @@ class Zend_Amf_Server implements Zend_Server_Interface
      */
     public function getDirectory()
     {
-        return $this->_directories;
+        return $this->getLoader()->getPaths("");
     }
 
     /**
