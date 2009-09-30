@@ -15,8 +15,9 @@
  * @category   Zend
  * @package    Zend_Loader
  * @subpackage PluginLoader
- * @copyright  Copyright (c) 2005-2008 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2009 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @version    $Id: PluginLoader.php 18207 2009-09-17 22:29:50Z beberlei $
  */
 
 /** Zend_Loader_PluginLoader_Interface */
@@ -31,7 +32,7 @@ require_once 'Zend/Loader.php';
  * @category   Zend
  * @package    Zend_Loader
  * @subpackage PluginLoader
- * @copyright  Copyright (c) 2005-2008 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2009 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  */
 class Zend_Loader_PluginLoader implements Zend_Loader_PluginLoader_Interface
@@ -122,6 +123,9 @@ class Zend_Loader_PluginLoader implements Zend_Loader_PluginLoader_Interface
      */
     protected function _formatPrefix($prefix)
     {
+    	if($prefix == "") {
+    		return $prefix;
+    	}
         return rtrim($prefix, '_') . '_';
     }
 
@@ -145,7 +149,12 @@ class Zend_Loader_PluginLoader implements Zend_Loader_PluginLoader_Interface
         if ($this->_useStaticRegistry) {
             self::$_staticPrefixToPaths[$this->_useStaticRegistry][$prefix][] = $path;
         } else {
-            $this->_prefixToPaths[$prefix][] = $path;
+            if (!isset($this->_prefixToPaths[$prefix])) {
+                $this->_prefixToPaths[$prefix] = array();
+            }
+            if (!in_array($path, $this->_prefixToPaths[$prefix])) {
+                $this->_prefixToPaths[$prefix][] = $path;
+            }
         }
         return $this;
     }

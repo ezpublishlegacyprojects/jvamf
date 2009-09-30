@@ -13,22 +13,35 @@
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
- * @package    Zend_Loader
- * @subpackage Autoloader
+ * @package    Zend_Auth
+ * @subpackage Zend_Auth_Adapter_Http
  * @copyright  Copyright (c) 2005-2009 Zend Technologies USA Inc. (http://www.zend.com)
- * @version    $Id: Interface.php 16541 2009-07-07 06:59:03Z bkarwin $
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @version    $Id: Interface.php 16200 2009-06-21 18:50:06Z thomas $
  */
 
+
 /**
- * Autoloader interface
- * 
- * @package    Zend_Loader
- * @subpackage Autoloader
+ * Auth HTTP Resolver Interface
+ *
+ * Defines an interace to resolve a username/realm combination into a shared
+ * secret usable by HTTP Authentication.
+ *
+ * @category   Zend
+ * @package    Zend_Auth
+ * @subpackage Zend_Auth_Adapter_Http
  * @copyright  Copyright (c) 2005-2009 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  */
-interface Zend_Loader_Autoloader_Interface
+interface Zend_Auth_Adapter_Http_Resolver_Interface
 {
-    public function autoload($class);
+    /**
+     * Resolve username/realm to password/hash/etc.
+     *
+     * @param  string $username Username
+     * @param  string $realm    Authentication Realm
+     * @return string|false User's shared secret, if the user is found in the
+     *         realm, false otherwise.
+     */
+    public function resolve($username, $realm);
 }

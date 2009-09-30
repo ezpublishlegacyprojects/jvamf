@@ -13,22 +13,24 @@
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
- * @package    Zend_Loader
- * @subpackage Autoloader
+ * @package    Zend_Auth
  * @copyright  Copyright (c) 2005-2009 Zend Technologies USA Inc. (http://www.zend.com)
- * @version    $Id: Interface.php 16541 2009-07-07 06:59:03Z bkarwin $
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @version    $Id: Exception.php 16200 2009-06-21 18:50:06Z thomas $
  */
 
+
 /**
- * Autoloader interface
- * 
- * @package    Zend_Loader
- * @subpackage Autoloader
+ * @see Zend_Exception
+ */
+require_once 'Zend/Exception.php';
+
+
+/**
+ * @category   Zend
+ * @package    Zend_Auth
  * @copyright  Copyright (c) 2005-2009 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  */
-interface Zend_Loader_Autoloader_Interface
-{
-    public function autoload($class);
-}
+class Zend_Auth_Exception extends Zend_Exception
+{}

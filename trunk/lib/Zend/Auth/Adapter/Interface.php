@@ -13,22 +13,34 @@
  * to license@zend.com so we can send you a copy immediately.
  *
  * @category   Zend
- * @package    Zend_Loader
- * @subpackage Autoloader
+ * @package    Zend_Auth
+ * @subpackage Zend_Auth_Adapter
  * @copyright  Copyright (c) 2005-2009 Zend Technologies USA Inc. (http://www.zend.com)
- * @version    $Id: Interface.php 16541 2009-07-07 06:59:03Z bkarwin $
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @version    $Id: Interface.php 16200 2009-06-21 18:50:06Z thomas $
  */
 
+
 /**
- * Autoloader interface
- * 
- * @package    Zend_Loader
- * @subpackage Autoloader
+ * @see Zend_Auth_Result
+ */
+require_once 'Zend/Auth/Result.php';
+
+
+/**
+ * @category   Zend
+ * @package    Zend_Auth
+ * @subpackage Zend_Auth_Adapter
  * @copyright  Copyright (c) 2005-2009 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  */
-interface Zend_Loader_Autoloader_Interface
+interface Zend_Auth_Adapter_Interface
 {
-    public function autoload($class);
+    /**
+     * Performs an authentication attempt
+     *
+     * @throws Zend_Auth_Adapter_Exception If authentication cannot be performed
+     * @return Zend_Auth_Result
+     */
+    public function authenticate();
 }
