@@ -29,7 +29,7 @@ class jvAMFInfo
     static function info()
     {
         return array( 'Name'      => 'jvAMF',
-                      'Version'   => '1.0.1',
+                      'Version'   => '@@@VERSION@@@',
                       'Copyright' => 'Copyright © 2009 Jérôme Vieilledent',
                       'Info'      => '<a href="http://projects.ez.no/jvamf" target="_blank">http://projects.ez.no/jvamf</a>'
                       'License'   => 'GNU General Public License v2.0',
