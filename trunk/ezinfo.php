@@ -31,7 +31,7 @@ class jvAMFInfo
         return array( 'Name'      => 'jvAMF',
                       'Version'   => '@@@VERSION@@@',
                       'Copyright' => 'Copyright © 2009 Jérôme Vieilledent',
-                      'Info'      => '<a href="http://projects.ez.no/jvamf" target="_blank">http://projects.ez.no/jvamf</a>'
+                      'Info'      => '<a href="http://projects.ez.no/jvamf" target="_blank">http://projects.ez.no/jvamf</a>',
                       'License'   => 'GNU General Public License v2.0',
                       'Includes the following library'              => array( 'Name' => 'Zend_AMF (part of Zend Framework)',
                                                                               'Version' => '1.9.7',
