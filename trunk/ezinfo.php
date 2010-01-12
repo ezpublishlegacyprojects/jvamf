@@ -34,11 +34,9 @@ class jvAMFInfo
                       'Info'      => '<a href="http://projects.ez.no/jvamf" target="_blank">http://projects.ez.no/jvamf</a>'
                       'License'   => 'GNU General Public License v2.0',
                       'Includes the following library'              => array( 'Name' => 'Zend_AMF (part of Zend Framework)',
-                                                                              'Version' => '1.9.3',
+                                                                              'Version' => '1.9.7',
                                                                               'Copyright' => 'Copyright (c) 2005-2009 Zend Technologies USA Inc. (http://www.zend.com)',
                                                                               'License' => 'New BSD License : http://framework.zend.com/license/new-bsd',),
-                      'Sponsored by'							    => array( 'Name' => 'NOVEN',
-	                                                                          'Website' => 'http://www.noven.fr')
                     );
     }
 }
