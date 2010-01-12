@@ -57,5 +57,8 @@ foreach($aClassMapping as $asClass => $phpClass)
 eZDebug::accumulatorStop('Zend_AMF Configuration');
 
 $AMFresult = $server->handle();
-$Result['pagelayout'] = 'layout_jvamf.tpl';
-$Result['content'] = $AMFresult;
+echo $AMFresult;
+
+// Clean exit to avoid debug to display
+eZDB::checkTransactionCounter();
+eZExecution::cleanExit();
