@@ -1,0 +1,1204 @@
+%PDF-1.3
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 6 0 R
+ /F4 7 0 R
+ /F5 8 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER1': class PDFDictionary 
+4 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/wiki/Action_Message_Format) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 329.0994
+ 663.5936
+ 391.8207
+ 675.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER2': class PDFDictionary 
+5 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://framework.zend.com/wiki/display/ZFPROP/Zend_Amf+-+Wade+Arnold) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 94.93291
+ 567.5936
+ 177.1729
+ 579.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'F3': class PDFType1Font 
+6 0 obj
+% Font Times-Roman
+<< /BaseFont /Times-Roman
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F4': class PDFType1Font 
+7 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F4
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F5': class PDFType1Font 
+8 0 obj
+% Font Helvetica-Oblique
+<< /BaseFont /Helvetica-Oblique
+ /Encoding /WinAnsiEncoding
+ /Name /F5
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER3': class PDFDictionary 
+9 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://framework.zend.com/manual/en/zend.amf.server.html#zend.amf.server.flex) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 162.0344
+ 421.7129
+ 174.0344 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page1': class PDFPage 
+10 0 obj
+% Page dictionary
+<< /Annots [ 4 0 R
+ 5 0 R
+ 9 0 R ]
+ /Contents 28 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 27 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER4': class PDFDictionary 
+11 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://framework.zend.com/manual/en/zend.amf.server.html#zend.amf.server.typedobjects) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 552.8042
+ 485.2929
+ 564.8042 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER5': class PDFDictionary 
+12 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://framework.zend.com/manual/en/zend.amf.server.html#zend.amf.server.errors) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 513.8042
+ 455.2629
+ 525.8042 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER6': class PDFDictionary 
+13 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://framework.zend.com/manual/en/zend.date.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 294.2978
+ 450.8042
+ 346.5984
+ 462.8042 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page2': class PDFPage 
+14 0 obj
+% Page dictionary
+<< /Annots [ 11 0 R
+ 12 0 R
+ 13 0 R ]
+ /Contents 29 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 27 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER7': class PDFDictionary 
+15 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.charlesproxy.com/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 234.4746
+ 732.5936
+ 353.581
+ 744.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page3': class PDFPage 
+16 0 obj
+% Page dictionary
+<< /Annots [ 15 0 R ]
+ /Contents 30 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 27 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R17': class PDFCatalog 
+17 0 obj
+% Document Root
+<< /Outlines 19 0 R
+ /PageMode /UseNone
+ /Pages 27 0 R
+ /Type /Catalog >>
+endobj
+% 'R18': class PDFInfo 
+18 0 obj
+<< /Author ()
+ /CreationDate (D:20100113103854-01'00')
+ /Keywords ()
+ /Producer (ReportLab http://www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (jvAMF 1.0 Documentation) >>
+endobj
+% 'R19': class PDFOutlines 
+19 0 obj
+<< /Count 8
+ /First 20 0 R
+ /Last 22 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+20 0 obj
+<< /Dest [ 10 0 R
+ /XYZ
+ 62.69291
+ 699.0236
+ 0 ]
+ /Next 21 0 R
+ /Parent 19 0 R
+ /Title (Introduction) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+21 0 obj
+<< /Dest [ 10 0 R
+ /XYZ
+ 62.69291
+ 534.0236
+ 0 ]
+ /Next 22 0 R
+ /Parent 19 0 R
+ /Prev 20 0 R
+ /Title (Installation) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+22 0 obj
+<< /Count 4
+ /Dest [ 10 0 R
+ /XYZ
+ 62.69291
+ 354.6236
+ 0 ]
+ /First 23 0 R
+ /Last 26 0 R
+ /Parent 19 0 R
+ /Prev 21 0 R
+ /Title (Configuration and usage) >>
+endobj
+% 'Outline.8.0': class OutlineEntryObject 
+23 0 obj
+<< /Dest [ 10 0 R
+ /XYZ
+ 62.69291
+ 321.6236
+ 0 ]
+ /Next 24 0 R
+ /Parent 22 0 R
+ /Title (Flex configuration) >>
+endobj
+% 'Outline.8.1': class OutlineEntryObject 
+24 0 obj
+<< /Dest [ 10 0 R
+ /XYZ
+ 62.69291
+ 146.4644
+ 0 ]
+ /Next 25 0 R
+ /Parent 22 0 R
+ /Prev 23 0 R
+ /Title (eZ Publish configuration) >>
+endobj
+% 'Outline.8.2': class OutlineEntryObject 
+25 0 obj
+<< /Dest [ 14 0 R
+ /XYZ
+ 62.69291
+ 495.2342
+ 0 ]
+ /Next 26 0 R
+ /Parent 22 0 R
+ /Prev 24 0 R
+ /Title (Objects and Exceptions) >>
+endobj
+% 'Outline.8.3': class OutlineEntryObject 
+26 0 obj
+<< /Dest [ 16 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Parent 22 0 R
+ /Prev 25 0 R
+ /Title (Debugging your services) >>
+endobj
+% 'R27': class PDFPages 
+27 0 obj
+% page tree
+<< /Count 3
+ /Kids [ 10 0 R
+ 14 0 R
+ 16 0 R ]
+ /Type /Pages >>
+endobj
+% 'R28': class PDFStream 
+28 0 obj
+% page stream
+<< /Length 7269 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+BT 1 0 0 1 0 9.64 Tm 112.7049 0 Td 24 TL /F2 20 Tf 0 0 0 rg (jvAMF 1.0 Documentation) Tj T* -112.7049 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+BT 1 0 0 1 0 7.23 Tm 130.7249 0 Td 18 TL /F2 15 Tf 0 0 0 rg (2009-2010 J\351r\364me Vieilledent) Tj T* -130.7249 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 678.0236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 648.0236 cm
+q
+BT 1 0 0 1 0 16.82 Tm .240651 Tw 12 TL /F1 10 Tf 0 0 0 rg (This extension allows you to develop and use services with ) Tj 0 0 .501961 rg (AMF protocol ) Tj 0 0 0 rg (to communicate with Flash/Flex) Tj T* 0 Tw (applications with eZ Publish.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 582.0236 cm
+q
+BT 1 0 0 1 0 52.82 Tm .020697 Tw 12 TL /F1 10 Tf 0 0 0 rg (AMF protocol supports primitive types such as ) Tj /F2 10 Tf (boolean) Tj /F1 10 Tf (, ) Tj /F2 10 Tf (string) Tj /F1 10 Tf (, ) Tj /F2 10 Tf (integer) Tj /F1 10 Tf (, ) Tj /F2 10 Tf (array) Tj /F1 10 Tf (, ) Tj /F2 10 Tf (object) Tj /F1 10 Tf (, ) Tj /F2 10 Tf (typed objects) Tj /F1 10 Tf (... It) Tj T* 0 Tw .230542 Tw (is a binary protocol directly implemented in the core of Flash Player, which means that there is no parsing) Tj T* 0 Tw 2.481412 Tw (\(contrary to REST XML or SOAP services\). Transfers are much faster \(no unneeded information is) Tj T* 0 Tw .242339 Tw (transmitted\) and you can even gzip it \(with Apache mod_deflate for instance\) ! Besides, it is Open Source) Tj T* 0 Tw (;-\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 564.0236 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F1 10 Tf 0 0 0 rg (It uses ) Tj 0 0 .501961 rg (Zend_AMF library ) Tj 0 0 0 rg (, which is officially sponsored by Adobe. It is compatible with ) Tj /F2 10 Tf (eZ Publish 4.x) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 546.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Please note that Zend_AMF requires PHP 5.2.4 or later version) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 513.0236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Installation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 507.0236 cm
+Q
+q
+1 0 0 1 62.69291 489.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 5.66 0 Td (1.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Download the compressed file under /extension directory and uncompress it.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 489.0236 cm
+Q
+q
+1 0 0 1 62.69291 492.0236 cm
+Q
+q
+1 0 0 1 62.69291 474.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Activate the extension.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 474.0236 cm
+Q
+q
+1 0 0 1 62.69291 477.0236 cm
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 5.66 0 Td (3.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Run the bin/php/ezpgenerateauloads.php script for the extensions :) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+Q
+q
+1 0 0 1 62.69291 425.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 5.71 Tm /F4 10 Tf 12 TL (php bin/php/ezpgenerateautoloads.php -e) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 417.8236 cm
+Q
+q
+1 0 0 1 62.69291 399.8236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 5.66 0 Td (4.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Clear the caches :) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 399.8236 cm
+Q
+q
+1 0 0 1 62.69291 366.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 5.71 Tm /F4 10 Tf 12 TL (php bin/php/ezcache.php --clear-all --purge) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 333.6236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Configuration and usage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 303.6236 cm
+q
+BT 1 0 0 1 0 7.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (Flex configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 249.6236 cm
+q
+BT 1 0 0 1 0 40.82 Tm 2.618863 Tw 12 TL /F1 10 Tf 0 0 0 rg (Your ) Tj /F5 10 Tf (RemoteObject ) Tj /F1 10 Tf (endpoint must be ) Tj /F5 10 Tf (http://your-ezp-host-domaine/jvamf/endpoint ) Tj /F1 10 Tf (You can edit your) Tj T* 0 Tw 9.197251 Tw (endpoint either in your Flex application's ) Tj /F2 10 Tf (services-config.xml ) Tj /F1 10 Tf (file or directly in your) Tj T* 0 Tw .410888 Tw /F4 10 Tf (<) Tj (mx:RemoteObject/) Tj (> ) Tj /F1 10 Tf (tag. If you use the services-config.xml file \(recommended\), your endpoint should) Tj T* 0 Tw (be like this : ) Tj /F4 10 Tf (http://{server.name}:{server.port}/jvamf/endpoint) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 231.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Here's an example of a channel definition in a services-config.xml file :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 190.4644 cm
+q
+q
+.673967 0 0 .673967 0 0 cm
+q
+1 0 0 1 6.6 9.792765 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 696 48 re B*
+Q
+q
+BT 1 0 0 1 0 29.71 Tm 12 TL /F4 10 Tf 0 0 0 rg (<) Tj (channel-definition id="espacepresse-amf" class="mx.messaging.channels.AMFChannel") Tj (>) Tj  T* (  ) Tj (<) Tj (endpoint url="http://{server.name}:{server.port}/jvamf/endpoint" class="flex.messaging.endpoints.AMFEndpoint"/) Tj (>) Tj  T* (<) Tj (/channel-definition) Tj (>) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 158.4644 cm
+q
+BT 1 0 0 1 0 16.82 Tm .669398 Tw 12 TL /F1 10 Tf 0 0 0 rg (For more information to configure your Flex application to use your AMF services, you should read this :) Tj T* 0 Tw 0 0 .501961 rg (http://framework.zend.com/manual/en/zend.amf.server.html#zend.amf.server.flex) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 128.4644 cm
+q
+BT 1 0 0 1 0 7.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (eZ Publish configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 110.4644 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F1 10 Tf 0 0 0 rg (Take a look at the INI file ) Tj /F5 10 Tf (extension/jvamf/settings/jvamf.ini ) Tj /F1 10 Tf (\(DO NOT edit the file, make an override of it !\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 110.4644 cm
+Q
+q
+1 0 0 1 62.69291 76.86614 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 18.59831 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 6.598306 cm
+q
+BT 1 0 0 1 0 16.82 Tm 1.576412 Tw 12 TL /F1 10 Tf 0 0 0 rg (You can specify directories in which ) Tj /F5 10 Tf (Zend_AMF ) Tj /F1 10 Tf (will look for service classes, depending on your ) Tj T* 0 Tw .316457 Tw /F5 10 Tf (RemoteObject ) Tj /F1 10 Tf (call in your Flex application. Note that the PHP class that will be used for the service) Tj T* 0 Tw ET
+Q
+Q
+q
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R29': class PDFStream 
+29 0 obj
+% page stream
+<< /Length 10246 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 723.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 6 29 Tm  T* ET
+q
+1 0 0 1 23 27 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F1 10 Tf 0 0 0 rg (correspond to the ) Tj /F2 10 Tf (source ) Tj /F1 10 Tf (attribute of your ) Tj /F4 10 Tf (<) Tj (mx:RemoteObject/) Tj (> ) Tj /F1 10 Tf (tag.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 21 cm
+Q
+q
+1 0 0 1 23 3 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (For example, with this Flex RemoteObject :) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+Q
+q
+1 0 0 1 62.69291 697.4342 cm
+q
+q
+.697994 0 0 .697994 0 0 cm
+q
+1 0 0 1 6.6 9.455665 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 672 24 re B*
+Q
+q
+BT 1 0 0 1 0 5.71 Tm 12 TL /F4 10 Tf 0 0 0 rg (<) Tj (mx:RemoteObject id="myRemoteObject" showBusyCursor="true" destination="mydestination" source="MyAMFService"/) Tj (>) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 641.4342 cm
+q
+BT 1 0 0 1 0 40.82 Tm 1.239984 Tw 12 TL /F1 10 Tf 0 0 0 rg (When contacting the server, jvAMF will look for a ) Tj /F2 10 Tf (service class ) Tj /F1 10 Tf (named ) Tj /F2 10 Tf (MyAMFService) Tj /F1 10 Tf (. This must be) Tj T* 0 Tw .014987 Tw (accessible to Zend_AMF. You can specify one or several directories to scan in ) Tj /F5 10 Tf (jvamf.ini) Tj /F1 10 Tf (. So if your class is) Tj T* 0 Tw .027976 Tw (in ) Tj /F5 10 Tf (extension/myextension/classes/services/MyAMFService.php ) Tj /F1 10 Tf (\(the name of the file is case sensitive\), you) Tj T* 0 Tw (should add in an override of jvamf.ini :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 596.2342 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 17.71 Tm /F4 10 Tf 12 TL ([AMF]) Tj T* (ServicesDir[]=extension/myextension/classes/services) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 588.2342 cm
+Q
+q
+1 0 0 1 62.69291 546.2342 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 28.82 Tm .321318 Tw 12 TL /F1 10 Tf 0 0 0 rg (You can explicitly declare Class Mapping from PHP =) Tj (> ActionScript. Note that you can also declare) Tj T* 0 Tw .23311 Tw (this mapping in your Value Objects \(VO\) classes. For more info, read the comments in ) Tj /F5 10 Tf (jvamf.ini ) Tj /F1 10 Tf (and) Tj T* 0 Tw 0 0 .501961 rg (http://framework.zend.com/manual/en/zend.amf.server.html#zend.amf.server.typedobjects) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 546.2342 cm
+Q
+q
+1 0 0 1 62.69291 549.2342 cm
+Q
+q
+1 0 0 1 62.69291 507.2342 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 28.82 Tm 1.619985 Tw 12 TL /F1 10 Tf 0 0 0 rg (You can switch to Zend_AMF ) Tj /F5 10 Tf (Production Mode) Tj /F1 10 Tf (, which means that no details will be sent to the) Tj T* 0 Tw 99.97992 Tw (client when throwing exceptions.) Tj T* 0 Tw 0 0 .501961 rg (http://framework.zend.com/manual/en/zend.amf.server.html#zend.amf.server.errors) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 507.2342 cm
+Q
+q
+1 0 0 1 62.69291 477.2342 cm
+q
+BT 1 0 0 1 0 7.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (Objects and Exceptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 423.2342 cm
+q
+BT 1 0 0 1 0 40.82 Tm 1.868651 Tw 12 TL /F1 10 Tf 0 0 0 rg (You can use several native types and objects as services arguments. For example, you can transfer) Tj T* 0 Tw .05061 Tw (ActionScript ) Tj /F2 10 Tf (Date objects) Tj /F1 10 Tf (; they will be converted to ) Tj 0 0 .501961 rg (Zend_Date ) Tj 0 0 0 rg (objects in PHP. Also, each time you throw) Tj T* 0 Tw .01561 Tw (an exception, the Flex RemoteObject will raise an ) Tj /F2 10 Tf (onError ) Tj /F1 10 Tf (event with the details of your exception \(except) Tj T* 0 Tw (if the ) Tj /F5 10 Tf (Production mode ) Tj /F1 10 Tf (has been enabled, in this case no detail will be provided\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 405.2342 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Below ActionScript to PHP mapping :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 399.2342 cm
+Q
+q
+1 0 0 1 62.69291 129.2342 cm
+1 1 1 rg
+n 0 270 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 252 469.8898 -18 re f*
+1 1 1 rg
+n 0 234 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 216 469.8898 -18 re f*
+1 1 1 rg
+n 0 198 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 180 469.8898 -18 re f*
+1 1 1 rg
+n 0 162 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 144 469.8898 -18 re f*
+1 1 1 rg
+n 0 126 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 108 469.8898 -18 re f*
+1 1 1 rg
+n 0 90 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 72 469.8898 -18 re f*
+1 1 1 rg
+n 0 54 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 36 469.8898 -18 re f*
+1 1 1 rg
+n 0 18 469.8898 -18 re f*
+1 1 1 rg
+n 0 270 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 252 469.8898 -18 re f*
+1 1 1 rg
+n 0 234 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 216 469.8898 -18 re f*
+1 1 1 rg
+n 0 198 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 180 469.8898 -18 re f*
+1 1 1 rg
+n 0 162 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 144 469.8898 -18 re f*
+1 1 1 rg
+n 0 126 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 108 469.8898 -18 re f*
+1 1 1 rg
+n 0 90 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 72 469.8898 -18 re f*
+1 1 1 rg
+n 0 54 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 36 469.8898 -18 re f*
+1 1 1 rg
+n 0 18 469.8898 -18 re f*
+.960784 .960784 .862745 rg
+n 0 270 469.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 255 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 227.9437 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 87.29685 0 Td (ActionScript) Tj T* -87.29685 0 Td ET
+Q
+Q
+q
+1 0 0 1 245.9437 255 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 217.9461 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 98.69303 0 Td (PHP) Tj T* -98.69303 0 Td ET
+Q
+Q
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 237 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (undefined) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.9437 237 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (null) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 219 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (null) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.9437 219 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (null) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 201 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (int) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.9437 201 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (integer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 183 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Number) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.9437 183 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (float) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 165 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Boolean) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.9437 165 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (boolean) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 147 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (String) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.9437 147 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (string) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 129 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Array) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.9437 129 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (array) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 111 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (XML) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.9437 111 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (DomDocument) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (flash.utils.ByteArray) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.9437 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (string) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (uint) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.9437 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (float) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Object) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.9437 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (object) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (RemoteClass Object) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.9437 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (class mapped object) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Date) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.9437 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Zend_Date) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (ArrayCollection) Tj T* ET
+Q
+Q
+q
+1 0 0 1 245.9437 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (object) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 252 m 469.8898 252 l S
+n 0 234 m 469.8898 234 l S
+n 0 216 m 469.8898 216 l S
+n 0 198 m 469.8898 198 l S
+n 0 180 m 469.8898 180 l S
+n 0 162 m 469.8898 162 l S
+n 0 144 m 469.8898 144 l S
+n 0 126 m 469.8898 126 l S
+n 0 108 m 469.8898 108 l S
+n 0 90 m 469.8898 90 l S
+n 0 72 m 469.8898 72 l S
+n 0 54 m 469.8898 54 l S
+n 0 36 m 469.8898 36 l S
+n 0 18 m 469.8898 18 l S
+n 239.9437 0 m 239.9437 270 l S
+n 0 270 m 469.8898 270 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 270 l S
+n 469.8898 0 m 469.8898 270 l S
+n 0 252 m 469.8898 252 l S
+n 0 234 m 469.8898 234 l S
+n 0 216 m 469.8898 216 l S
+n 0 198 m 469.8898 198 l S
+n 0 180 m 469.8898 180 l S
+n 0 162 m 469.8898 162 l S
+n 0 144 m 469.8898 144 l S
+n 0 126 m 469.8898 126 l S
+n 0 108 m 469.8898 108 l S
+n 0 90 m 469.8898 90 l S
+n 0 72 m 469.8898 72 l S
+n 0 54 m 469.8898 54 l S
+n 0 36 m 469.8898 36 l S
+n 0 18 m 469.8898 18 l S
+n 239.9437 0 m 239.9437 270 l S
+n 0 270 m 469.8898 270 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 270 l S
+n 469.8898 0 m 469.8898 270 l S
+Q
+Q
+q
+1 0 0 1 62.69291 129.2342 cm
+Q
+ 
+endstream
+
+endobj
+% 'R30': class PDFStream 
+30 0 obj
+% page stream
+<< /Length 569 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 747.0236 cm
+q
+BT 1 0 0 1 0 7.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (Debugging your services) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 705.0236 cm
+q
+BT 1 0 0 1 0 28.82 Tm .79881 Tw 12 TL /F1 10 Tf 0 0 0 rg (To debug your services, you can use ) Tj 0 0 .501961 rg (Charles Debugging Proxy ) Tj 0 0 0 rg (- Please note that this software IS NOT) Tj T* 0 Tw .18936 Tw (Open Source. Charles fully supports AMF protocol and allows you to vizualize the backend results of your) Tj T* 0 Tw (service call.) Tj T* ET
+Q
+Q
+ 
+endstream
+
+endobj
+xref
+0 31
+0000000000 65535 f
+0000000113 00000 n
+0000000257 00000 n
+0000000422 00000 n
+0000000609 00000 n
+0000000877 00000 n
+0000001151 00000 n
+0000001320 00000 n
+0000001481 00000 n
+0000001674 00000 n
+0000001955 00000 n
+0000002285 00000 n
+0000002589 00000 n
+0000002887 00000 n
+0000003142 00000 n
+0000003475 00000 n
+0000003707 00000 n
+0000004009 00000 n
+0000004147 00000 n
+0000004382 00000 n
+0000004507 00000 n
+0000004680 00000 n
+0000004868 00000 n
+0000005096 00000 n
+0000005277 00000 n
+0000005479 00000 n
+0000005679 00000 n
+0000005847 00000 n
+0000005973 00000 n
+0000013343 00000 n
+0000023691 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(g!\231\301\332c\213H\310\211\312\255\021r\027\230) (g!\231\301\332c\213H\310\211\312\255\021r\027\230)] 
+
+ /Info 18 0 R
+ /Root 17 0 R
+ /Size 31 >>
+startxref
+24333
+%%EOF

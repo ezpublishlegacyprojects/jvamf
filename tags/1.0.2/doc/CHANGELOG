@@ -1,0 +1,13 @@
+1.0.2
+=====
+- Upgrade to Zend_AMF 1.9.7
+- Avoid eZDebug to appear in endpoint
+- Doc in RST format
+
+1.0.1
+=====
+- Upgrade to Zend_AMF 1.9.3
+
+1.0.0
+=====
+Initial release
