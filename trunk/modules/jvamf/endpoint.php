@@ -35,23 +35,41 @@ eZDebug::accumulatorStart('Zend_AMF Configuration');
 set_include_path('extension/jvamf/lib'.PATH_SEPARATOR.get_include_path());
 
 $ini = eZINI::instance('jvamf.ini');
-$aServicesDirs = $ini->variable('AMF', 'ServicesDir');
+$aServicesDirs = $ini->variable('Services', 'ServicesDir');
+$aServicesClasses = $ini->variable('Services', 'ServicesClasses');
 $aClassMapping = $ini->variable('AMF', 'ClassMap');
 $productionMode = $ini->variable('AMF', 'ProductionMode') == 'enabled' ? true : false;
 
 $server = new Zend_Amf_Server();
 $server->setProduction($productionMode);
 
-// Les repertoires de services
+// services directories
 foreach($aServicesDirs as $dir)
 {
 	$server->addDirectory($dir);
 }
 
-// Le ClassMapping
+// Services classes
+foreach($aServicesClasses as $class)
+{
+	$server->setClass($class);
+}
+
+// ClassMapping
 foreach($aClassMapping as $asClass => $phpClass)
 {
 	$server->setClassMap($asClass, $phpClass);
+}
+
+// Do we allow Service explorer ?
+$allowServiceExplorer = $ini->variable('Services', 'AllowServiceExplorer') == 'true';
+if($allowServiceExplorer)
+{
+	// *ZAMFBROWSER IMPLEMENTATION*
+	// Add the ZendAmfServiceBrowser class to the list of available classes.
+	$server->setClass('ZendAmfServiceBrowser');
+	// Set this reference the class requires to the server object.
+	ZendAmfServiceBrowser::$ZEND_AMF_SERVER = $server;
 }
 
 eZDebug::accumulatorStop('Zend_AMF Configuration');
